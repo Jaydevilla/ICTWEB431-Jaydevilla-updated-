@@ -1,0 +1,825 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff; /* Body color */
+    font-family: Arial, sans-serif; /* Sans-serif font */
+  }
+ 
+  header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 85%;
+    padding: 1.3rem 10%;
+    display: flex;
+    background: rgb(0, 0, 0);
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    z-index: 100;
+    box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.089);
+}
+ 
+  .container {
+    width: 80%;
+    height: auto;
+    margin: 0 auto;
+    background-color: #ffffff;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    overflow: hidden;
+  }
+ 
+  .logo{
+    font-size: 45px;
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: 900;
+}
+ 
+.navbar a{
+    color: rgb(255, 251, 251);
+    font-weight: 700;
+    text-decoration: none;
+    margin-left: 2.5rem;
+    font-size: 15px;
+}
+
+.main-hero{
+    min-height: 100px;
+    background: url(Images/best\ hero\ image.png) no-repeat;
+    background-size: cover;
+    background-position: center;
+
+ 
+}
+
+.hero_image{
+    margin-top: 20%;
+    
+    
+  }
+
+.head-words{
+    float: right;
+    margin-top: 5%;
+
+  }
+
+  
+.heading-details{
+    color: #000000;
+    font-size: 130px;
+    font-weight: bolder;
+    margin-bottom: -2%;
+    
+}
+
+.image{
+   height: auto;
+   width: 500px;
+   padding-left: 5%;
+}
+
+.descip{
+    font-size: 30px;
+    margin-bottom: 5%;
+}
+
+.button-link {
+    font-size: 19px;
+    background-color: #000000;
+    color: white;
+    padding: 20px;
+    font-weight: bolder;
+
+    
+}
+
+a{
+    text-decoration: none;
+    
+}
+
+.navbar .play{
+    
+  font-weight: bolder;
+  color: #000000;
+  background-color: #ffffff;
+  padding: 15px;
+  border-radius: 20px;
+}
+
+/*hero image ends here*/
+
+/* about start here */
+
+.about{
+    background-color: #575656;
+    width: auto;
+    height: 20vh;
+    background-image: url(Images/who-is-james-bond.png) ;
+    margin-top: 10%;
+    margin-bottom: 3%;
+    text-align: center;
+    color: #ffffff;
+    font-size: 60px;
+    padding: 20%;
+    
+
+}
+
+.head{
+    text-shadow: 5px 3px rgba(0, 0, 0, 0.562);
+}
+
+.button-link2{
+    font-size: 15px;
+    background-color: #f8f8f8;
+    color: rgb(0, 0, 0);
+    padding: 20px;
+    font-weight: bolder;
+}
+
+
+/* about ends here */
+
+
+/* Movies start here8*/
+
+
+
+
+.vision{
+    height: auto;
+    width: 600px;
+    margin-right: 3%;
+    float: left;
+    margin-right: 5%;
+  }
+  
+
+
+  .elements{
+    font-size: 20px;
+    padding: 12%;
+
+
+  
+  }
+
+  
+  .button_link a{
+    margin-top: 3%;
+    float: right;
+    font-weight: bolder;
+    background-color: #000000;
+    padding: 15px;
+    border-radius: 15px;
+    font-size: 19px;
+    margin-right: 6%;
+    color: #ffffff;
+    
+  }
+  
+  .heading-details2{
+    color: #000000;
+    font-size: 50px;
+    font-weight: bolder;
+    margin-bottom: 3%;
+    padding-top: 10%;
+
+    
+}
+
+  a{
+    text-decoration: none;
+    color: white;
+    
+  }
+
+
+  
+
+.elements2{
+    font-size: 20px;
+    padding: 12%;
+    background-color: #575656;
+
+  
+  }
+  
+
+  .vision2{
+    float: left;
+}
+
+/* vilians */
+
+
+.vision3{
+    height: auto;
+    width: 530px;
+    margin-right: 3%;
+    float: right;
+    margin-right: 5%;
+  }
+  
+
+
+  .elements3{
+    font-size: 20px;
+    padding-left: 19%;
+    padding-right: 12%;
+    padding-top: 5%;
+    background-color: #575656;
+    width: auto;
+    height: 66vh;
+    margin-top: 3%;
+    color: #ffffff;
+
+  
+  }
+
+  .descri3{
+    color: #ffffff;
+  }
+
+  
+  .button_link3{
+    margin-top: 3%;
+    float: left;
+    font-weight: bolder;
+    background-color: #ffffff;
+    padding: 15px;
+    border-radius: 15px;
+    font-size: 19px;
+    
+  }
+  
+  .heading-details3{
+    color: #f3f1f1;
+    font-size: 50px;
+    font-weight: bolder;
+    margin-bottom: 3%;
+    padding-top: 10%;
+
+    
+}
+
+  .button_link3 a{
+    text-decoration: none;
+    color: rgb(3, 3, 3);
+    
+  }
+
+
+
+  /*footer start here*/
+
+  footer{
+    background-color: #31302e;
+    
+  }
+  
+  .footercontainer{
+    width: 100%;
+    padding: 70px 30px 20px;
+    margin-top: 5%;
+  }
+  
+  .footernav{
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 5%;
+  
+  }
+  
+  .footernav a{
+    color: white;
+    text-decoration: none;
+    padding: 2%;
+   
+  }
+  
+  
+  .footerbottom{
+    text-align: center;
+    background-color: #0000007b;
+    padding: 2%;
+    color: white;
+  }
+  
+  .socialicon{
+    display: flex;
+    justify-content: center;
+  }
+  
+  .socialicon a{
+    text-decoration: none;
+    padding: 10px;
+    margin: 10px;
+    background-color: #fff;
+    border-radius: 50%;
+  }
+  
+  .socialicon a i{
+    font-size: 3em;
+    color: #1f1d1cc0;
+    opacity: 0.9;
+  }
+  
+
+
+
+
+  /*footer ends here*/
+
+
+
+  /*villain start here*/
+  .Header{
+    font-size: 95px;
+    text-align: center;
+  }
+  
+  .descri{
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 10%;
+  }
+  
+  .Villian{
+    margin-top: 20%;
+  }
+  
+  
+  .who{
+    height: 57vh;
+    width: 100%;
+    margin-bottom: 5%;
+    padding-left: 10%;
+    padding-right: 13%;
+  
+  }
+  
+  
+  
+  
+  
+  
+  .james-head{
+    height: 80%;
+    width: auto;
+    float: left;
+    border-bottom-right-radius: 200px 200px;
+  
+  }
+  
+  .james-head2{
+    height: 80%;
+    width: auto;
+    padding-right: 20%;
+    border-bottom-right-radius: 200px 200px;
+    float: right;
+  
+  }
+  
+  .who section{
+    padding-top: 50px;
+    
+  }
+  
+  .who h2{
+    padding-top: 60px;
+    color: #0c0c0c;
+    font-size: 38px;
+    padding-bottom: 40px;
+  }
+  
+  .who p{
+    color: #000000;
+    font-size: 22px;
+    padding-bottom: 30px;
+    padding-right: 20%;
+  }
+
+
+  /*villian ends here*/
+
+
+
+
+/*cars start here*/
+
+.descri{
+  padding: 20px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.table-container{
+  padding-left: 15%;
+  padding-right: 15%;
+  margin-top: 10%;
+  height: 1900px;
+
+}
+
+.table-container h2{
+  padding-top: 100px;
+  padding-bottom: 50px;
+  text-align: center;
+  margin-bottom: 4%;
+  color: rgb(0, 0, 0);
+  font-size: 95px;
+  font-weight: bold;
+}
+
+
+.table-container h3{
+ color: rgb(0, 0, 0);
+  font-size: 30px;
+  padding-bottom: 15px;
+}
+
+table, th, td {
+  border-collapse: collapse;
+  border: 2px solid rgb(0, 0, 0);
+  margin-bottom: 3%;
+}
+
+table{
+  width: 100%;
+}
+
+th{
+  font-size: 25px;
+
+}
+th, td{
+  padding: 15px;
+  color: rgb(0, 0, 0)
+}
+
+td{
+  text-align: center;
+}
+
+
+.container2 {
+  position: relative;
+  width: 50%;
+  text-align: center;
+}
+
+.images_cars {
+  display: block;
+  width: 160%;
+  height: auto;
+  padding-left: 20%;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 160%;
+  margin-left: 20%;
+  border-radius: 20px;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #242424;
+}
+
+.container:hover .overlay {
+  opacity: 1;
+}
+
+.text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+
+
+
+/*cars ends here*/
+
+
+
+/*movies start here*/
+
+.page2{
+  margin-top: 10%;
+
+
+  margin-bottom: 10%;
+  text-align: center;
+  
+}
+
+.Movies{
+  padding-bottom: 10%;
+  color: white;
+  
+}
+
+.heading-details{
+  color: #000000;
+  font-size: 95px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.descr{
+  font-size: 25px;
+  margin: 50px;
+  color: black;
+}
+
+.wrapper{
+  width: 30%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10%;
+  float: left;
+ 
+}
+
+.image2{
+  width: 250px;
+  position: relative;
+}
+
+
+.image3{
+  width: 250px;
+  position: relative;
+
+}
+
+
+
+
+
+
+.content{
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: rgb(46, 48, 53);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 20px;
+
+  opacity: 0;
+  transition: 0.6s;
+}
+
+.content:hover{
+  opacity: 1;
+}
+
+.content h1{
+  font-size: 42px;
+  color: #ffffff;
+  margin-bottom: 30px;
+  
+}
+
+.content p{
+  font-weight: bold;
+  color: white;
+}
+
+.content > *{
+  transform: translateY(25px);
+  transition: transform 0.6s;
+}
+
+.content:hover  > *{
+  transform: translateY(0px);
+}
+
+
+
+/*Movie page end here */
+
+
+
+/*about page start here*/
+
+.page3{
+  margin-top: 10%;
+  margin-bottom: 10%;
+  text-align: center;
+  
+  
+}
+
+.aboutpage{
+  padding-bottom: 10%;
+  color: white;
+  width: 100%;
+  
+  
+}
+
+.heading-details{
+  color: #000000;
+  font-size: 95px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.descr{
+  font-size: 23px;
+  margin: 50px;
+  color: rgb(0, 0, 0);
+  text-align: left;
+  font-weight: lighter;
+}
+
+.wrapper{
+  width: 30%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10%;
+  float: left;
+ 
+}
+
+.image2{
+  width: 250px;
+  position: relative;
+}
+
+
+.image3{
+  width: 250px;
+  position: relative;
+
+}
+
+
+
+.actor{
+  width: 100%;
+  display: block;
+  margin: auto;
+
+}
+
+
+.content{
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: rgb(46, 48, 53);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 20px;
+
+  opacity: 0;
+  transition: 0.6s;
+}
+
+.content:hover{
+  opacity: 1;
+}
+
+.content h1{
+  font-size: 42px;
+  color: #ffffff;
+  margin-bottom: 30px;
+  
+}
+
+.content p{
+  font-weight: bold;
+  color: white;
+}
+
+.content > *{
+  transform: translateY(25px);
+  transition: transform 0.6s;
+}
+
+.content:hover  > *{
+  transform: translateY(0px);
+}
+
+
+
+
+
+/*about page ends here*/
+
+
+
+/*aspect page start here*/
+.aspects{
+  margin-top: 5%;
+}
+
+.Header2{
+  font-size: 95px;
+  text-align: center;
+  margin-top: 15%;
+}
+
+
+.aspect_descr{
+  font-size: 25px;
+  margin: 50px;
+  color: black;
+}
+
+.aspect_head{
+  margin-bottom: 2%;
+  margin-top: 2%;
+}
+
+/*aspect page ends here*/
+
+/*sitemap*/
+
+.sitemap{
+
+  text-align: center;
+  flex-wrap: wrap;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+ 
+
+}
+
+.heading-main{
+  color: #000000;
+  font-size: 55px;
+  font-weight: bold;
+  font-size: 95px;
+  margin-bottom: 5%;
+  margin-top: 10%;
+  text-align: center;
+
+}
+
+.thumbnail img{
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  transition: transform 0.3s ease-in-out;
+ 
+
+
+}
+
+.siteimage{
+  width: 600px;
+  height: auto;
+  margin: 20px;
+  
+}
+
+.thumbnail{
+  float: right;
+ 
+}
+
+a{
+  text-decoration: none;
+  color: #000000;
+}
+
+.thumbnail:hover{
+  transform: scale(1.1);
+}
+
+
+
+
